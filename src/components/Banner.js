@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
+import profileImage from '../img/profile.jpg'
 
 const banner = {
   animate: {
@@ -74,7 +75,7 @@ const BannerRowTop = ({ title, id }) => {
         <span className='row-message'>
           <ProfileContainer>
             <Link to='/profile'>
-              <img src='/images/profile.jpeg' alt='profile' />  
+              <img src={profileImage} alt='profile' />  
             </Link> 
           </ProfileContainer>
          </span>

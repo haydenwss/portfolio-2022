@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import DotsLoader from './DotsLoader';
 import { motion } from 'framer-motion';
+import profileImage from '../img/profile.jpg'
 
 const Card = () => {
 
@@ -59,7 +60,7 @@ const Card = () => {
                         {
                             isLoaded ?
                             (
-                                <img src='/images/profile.jpg' alt='profile' />
+                                <img src={profileImage} alt='profile' />
                             ) : (
                                 <DotsLoader />
                             )  
