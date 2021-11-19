@@ -59,7 +59,7 @@ const Card = () => {
                         {
                             isLoaded ?
                             (
-                                <img src='/images/profile.jpeg' alt='profile' />
+                                <img src='/images/profile.jpg' alt='profile' />
                             ) : (
                                 <DotsLoader />
                             )  
