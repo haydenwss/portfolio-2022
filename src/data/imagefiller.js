@@ -65,6 +65,12 @@ import project_image_appt from '../img/appointment-ss.png'
 // import image_two_appt from '../img/appt_2.png'
 // import image_three_appt from '../img/appt_3.png'
 
+// PROJECT # 13 IMAGES IMPORT 
+import project_image_flow from '../img/webflow-ss.png'
+// import image_one_appt from '../img/appt_1.png'
+// import image_two_appt from '../img/appt_2.png'
+// import image_three_appt from '../img/appt_3.png'
+
 
 const imagefiller = [
 
@@ -242,6 +248,19 @@ const imagefiller = [
     image_one: image_one_coastal,
     image_two: image_two_coastal,
     image_three: image_three_coastal,
+    project_description: 'My role: Research, wireframing, prototyping, UI design, Design system. The main user-flow needed to be robust and well-directed. The location of the user is needed in between the onboarding screens, before reaching the home screen. Users can change the location from there, if needed. The deliverables include: Logo design and branding assets, Icons, UI design in Sketch & Adobe Xd, Design language and style guides, Front-end development.',
+    technical_tools_1: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/850px-Sketch_Logo.svg.png',
+    technical_tools_2: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png',
+    technical_tools_3: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png'
+},
+{   
+    _id: '13',
+    github_repo: '',
+    title: 'Project (12).',
+    project_image: project_image_flow,
+    // image_one: image_one_coastal,
+    // image_two: image_two_coastal,
+    // image_three: image_three_coastal,
     project_description: 'My role: Research, wireframing, prototyping, UI design, Design system. The main user-flow needed to be robust and well-directed. The location of the user is needed in between the onboarding screens, before reaching the home screen. Users can change the location from there, if needed. The deliverables include: Logo design and branding assets, Icons, UI design in Sketch & Adobe Xd, Design language and style guides, Front-end development.',
     technical_tools_1: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/850px-Sketch_Logo.svg.png',
     technical_tools_2: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png',
