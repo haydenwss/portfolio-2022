@@ -76,6 +76,7 @@ const SlickBar = styled.ul`
   background-color: #d1d7e6;
   padding: 2rem 0;
   position: absolute;
+  z-index: 1;
   top: 0.5rem;
   left: 0;
   width: ${(props) => (props.clicked ? "12rem" : "0rem")};
