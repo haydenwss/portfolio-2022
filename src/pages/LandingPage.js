@@ -12,11 +12,11 @@ const LandingPage = () => {
 
     const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    loading
-      ? document.querySelector("body").classList.add("loading")
-      : document.querySelector("body").classList.remove("loading");
-  }, [loading]);
+    useEffect(() => {
+        loading
+        ? document.querySelector("body").classList.add("loading")
+        : document.querySelector("body").classList.remove("loading");
+    }, [loading]);
 
     return (
         <AnimateSharedLayout type='crossfade'>

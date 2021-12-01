@@ -1,4 +1,9 @@
 // PROJECT # 1 IMAGES IMPORT 
+import project_image_darcys from '../img/darcys-ss.png'
+// import image_one_darcys from '../img/darcys.png'
+// import image_two_darcys from '../img/cuterie.png'
+// import image_three_darcys from '../img/cut2.png'
+// PROJECT # 1 IMAGES IMPORT 
 import project_image_coastal from '../img/cut-ss1.png'
 import image_one_coastal from '../img/coastal.png'
 import image_two_coastal from '../img/cuterie.png'
@@ -54,8 +59,28 @@ import image_one_ecomm from '../img/ecomm_1.png'
 import image_two_ecomm from '../img/ecomm_2.png'
 import image_three_ecomm from '../img/ecomm_3.png'
 
+// PROJECT # 12 IMAGES IMPORT 
+import project_image_appt from '../img/appointment-ss.png'
+// import image_one_appt from '../img/appt_1.png'
+// import image_two_appt from '../img/appt_2.png'
+// import image_three_appt from '../img/appt_3.png'
+
 
 const imagefiller = [
+
+    {   
+        _id: '0',
+        github_repo: '',
+        title: 'Project (0).',
+        project_image: project_image_darcys,
+        // image_one: image_one_to_do,
+        // image_two: image_two_to_do,
+        // image_three: image_three_to_do,
+        project_description: 'From the top down, custom expense-tracking application. State is maintained through Redux and local frontend storage, and all UI components are executed with React and CSS. This application showcases an ability to create and store data, within a seamless and clean user interface. All form authentications are handled through custom JavaScript and Toastify. ',
+        technical_tools_1: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png',
+        technical_tools_2: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png',
+        technical_tools_3: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'
+    },
  
     {   
         _id: '1',
@@ -201,6 +226,19 @@ const imagefiller = [
     github_repo: '',
     title: 'Project (11).',
     project_image: project_image_coastal,
+    image_one: image_one_coastal,
+    image_two: image_two_coastal,
+    image_three: image_three_coastal,
+    project_description: 'My role: Research, wireframing, prototyping, UI design, Design system. The main user-flow needed to be robust and well-directed. The location of the user is needed in between the onboarding screens, before reaching the home screen. Users can change the location from there, if needed. The deliverables include: Logo design and branding assets, Icons, UI design in Sketch & Adobe Xd, Design language and style guides, Front-end development.',
+    technical_tools_1: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/850px-Sketch_Logo.svg.png',
+    technical_tools_2: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png',
+    technical_tools_3: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png'
+},
+{   
+    _id: '12',
+    github_repo: '',
+    title: 'Project (12).',
+    project_image: project_image_appt,
     image_one: image_one_coastal,
     image_two: image_two_coastal,
     image_three: image_three_coastal,
